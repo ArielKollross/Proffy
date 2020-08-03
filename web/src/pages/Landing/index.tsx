@@ -2,11 +2,16 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import logoImg from '../../assets/logo.svg';
+import landingImg from '../../assets/landing.svg';
+
 const Landing: React.FC = () => {
   return (
-    <Container>
-      Landing Page
-    </Container>
+   <Container>
+      <h2>Sua plataforma de estudos online</h2>
+
+      <img src={landingImg} alt="Plataforma de estudos" className="hero-image"/>
+   </Container>
   );
 };
 
