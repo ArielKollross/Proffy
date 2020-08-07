@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+/* // import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
+// export const GlobalStyle = createGlobalStyle` */
 
   @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Mandali&family=Poppins&display=swap');
 
@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   --color-primary-light: #916BEA;
   --color-primary: #8257E5;
   --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842C2;  
+  --color-primary-darker: #6842C2;
   --color-secondary: #04D361;
   --color-secondary-dark: #04BF58;
   --color-title-in-primary: #FFFFFF;
@@ -29,9 +29,10 @@ export const GlobalStyle = createGlobalStyle`
 
 
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
   }
 
   html, body, #root {
@@ -39,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: var(---color-background);
+    background-color: var(--color-background);
   }
 
   #root{
@@ -65,4 +66,10 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 62.5%;
     }
   }
-`
+
+  button{
+    cursor: pointer;
+  }
+
+
+  /* ` */
